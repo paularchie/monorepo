@@ -16,7 +16,7 @@ type ButtonProps = {
 
 const buttonColorMapping: Record<ButtonVariant, MantineColor> = {
   primary: 'blue',
-  secondary: 'red',
+  secondary: 'red'
 };
 
 export const Button: React.FC<ButtonProps> = ({
@@ -26,7 +26,7 @@ export const Button: React.FC<ButtonProps> = ({
   disabled,
   onClick,
   leftIcon,
-  rightIcon,
+  rightIcon
 }) => {
   return (
     <MantineButton
