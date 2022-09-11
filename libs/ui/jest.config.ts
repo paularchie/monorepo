@@ -5,10 +5,10 @@ export default {
   transform: {
     '^.+\\.[tj]sx?$': [
       '@swc/jest',
-      { jsc: { transform: { react: { runtime: 'automatic' } } } },
-    ],
+      { jsc: { transform: { react: { runtime: 'automatic' } } } }
+    ]
   },
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx'],
   coverageDirectory: '../../coverage/libs/ui',
-  setupFilesAfterEnv: ['<rootDir>/setupTests.js'],
+  setupFilesAfterEnv: ['<rootDir>/setupTests.js']
 };
