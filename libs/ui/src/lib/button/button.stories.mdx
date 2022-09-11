@@ -1,0 +1,29 @@
+import { Meta, Story, Canvas } from '@storybook/addon-docs';
+import { Button } from './button';
+import * as buttonStories from './button.stories';
+
+<Meta title="Button" component={Button} />
+
+export const Template = (args) => <Button {...args} />;
+
+# Button
+
+<Canvas>
+  <Story name="Primary" story={buttonStories.primary}></Story>
+</Canvas>
+
+<Canvas>
+  <Story name="Secondary" story={buttonStories.secondary}></Story>
+</Canvas>
+
+<Canvas>
+  <Story name="Disabled" story={buttonStories.disabled}></Story>
+</Canvas>
+
+<Canvas>
+  <Story name="With left icon" story={buttonStories.withLeftIcon}></Story>
+</Canvas>
+
+<Canvas>
+  <Story name="With right icon" story={buttonStories.withRightIcon}></Story>
+</Canvas>
