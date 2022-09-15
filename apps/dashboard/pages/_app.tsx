@@ -1,6 +1,7 @@
 import { AppProps } from 'next/app';
 import Head from 'next/head';
 import './styles.css';
+import { Button } from '@ui';
 
 function CustomApp({ Component, pageProps }: AppProps) {
   return (
@@ -8,7 +9,7 @@ function CustomApp({ Component, pageProps }: AppProps) {
       <Head>
         <title>Welcome to dashboard!</title>
       </Head>
-      <main className="app">
+      <main className="appp">
         <Component {...pageProps} />
       </main>
     </>

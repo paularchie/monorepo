@@ -16,7 +16,7 @@ type ButtonProps = {
 
 const buttonColorMapping: Record<ButtonVariant, MantineColor> = {
   primary: 'blue',
-  secondary: 'red'
+  secondary: 'yellow'
 };
 
 export const Button: React.FC<ButtonProps> = ({
