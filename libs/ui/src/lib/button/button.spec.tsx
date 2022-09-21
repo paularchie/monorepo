@@ -2,7 +2,7 @@ import { render } from '@testing-library/react';
 import { Button } from './button';
 import userEvent from '@testing-library/user-event';
 
-describe('Button', () => {
+describe('<Button />', () => {
   test('renders button with text', () => {
     const buttonText = 'button text';
     const { baseElement } = render(<Button text={buttonText} />);

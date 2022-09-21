@@ -1,0 +1,31 @@
+import { Meta, Story, Canvas } from '@storybook/addon-docs';
+import * as selectStories from './select.stories';
+
+# Select
+
+<Canvas>
+  <Story name="Basic" story={selectStories.basic}></Story>
+</Canvas>
+
+<Canvas>
+  <Story name="Searchable" story={selectStories.searchable}></Story>
+</Canvas>
+
+<Canvas>
+  <Story name="Disabled" story={selectStories.disabled}></Story>
+</Canvas>
+
+<Canvas>
+  <Story name="Read only" story={selectStories.readOnly}></Story>
+</Canvas>
+
+<Canvas>
+  <Story name="With error" story={selectStories.withError}></Story>
+</Canvas>
+
+<Canvas>
+  <Story
+    name="With error message"
+    story={selectStories.withErrorMessage}
+  ></Story>
+</Canvas>
